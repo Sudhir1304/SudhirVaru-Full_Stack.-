@@ -2,3 +2,4 @@ Flask
 Flask-SocketIO
 mysql-connector-python
 Flask-Cors
+gunicorn
