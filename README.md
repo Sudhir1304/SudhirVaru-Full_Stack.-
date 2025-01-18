@@ -28,7 +28,7 @@ A text editor or IDE (e.g., Visual Studio Code, PyCharm)
 ## Installation
 
 ### Clone the Repository:
-git clone https://github.com/your-username/CrickScore.git cd CrickScore
+git clone https://github.com/your-username/Cricscore.git cd Cricscore
 
 
 ### Set Up Python Virtual Environment:
