@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrickScore - Admin</title>
+    
+    <link rel="stylesheet" href="/static/css/style.css">
+    
+
+    
+</head>
+<body>
+    <div class="score-header">
+        <span id="score">0/0</span>
+        <span id="over">Over: 0.0</span>
+    </div>
+
+    <div class="this-over">
+        <h2>This Over</h2>
+        <div class="balls-container" id="balls">
+        
+        </div>
+        <div class="controls">
+            <button onclick="updateScore(0)">0</button>
+            <button onclick="updateScore(1)">1</button>
+            <button onclick="updateScore(2)">2</button>
+            <button onclick="updateScore(3)">3</button>
+            <button onclick="updateScore(4)">4</button>
+            <button onclick="updateScore(6)">6</button>
+            <button class="out" onclick="updateScore(0, true)">OUT</button>
+            
+            <button class="reset" onclick="resetScore()">Reset Score</button>
+
+        </div>
+        
+    </div>
+
+    <div class="over-listings" id="overs">
+        <h2>Previous Overs</h2>
+        
+    </div>
+
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <!-- <script src="app.js defer"></script> -->
+    <script src="/static/js/app.js"></script>
+
+</body>
+</html>
