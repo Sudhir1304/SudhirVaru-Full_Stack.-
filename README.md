@@ -52,7 +52,7 @@ pip install -r requirements.txt
 Open your MySQL server and create a database:
 
 
-## Update your MySQL credentials in the main.py file:
+## Update your MySQL credentials in the app.py file:
   host='localhost',
   database='crickscore',
   user='your_username',
